@@ -38,7 +38,7 @@ const config = {
     ],
   },
   plugins: [
-    new CleanWebpackPlugin( { cleanStaleWebpackAssets: false } ),
+    // new CleanWebpackPlugin( { cleanStaleWebpackAssets: false } ),
     new HtmlWebpackPlugin( { title: 'Speckle Viewer Example', template: 'src/assets/example.html', filename: 'example.html' } )
   ],
   resolve: {

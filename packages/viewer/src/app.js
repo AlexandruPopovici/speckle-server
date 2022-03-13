@@ -1,5 +1,5 @@
  /* eslint-disable */
-import Viewer from './modules/Viewer'
+import Viewer from './modules/Viewer-Hacked'
 
 setInterval(() => {
   document.getElementById('info-mem').innerText = '' + Math.round(performance.memory.usedJSHeapSize / 1024 / 1024)
